@@ -1,0 +1,10 @@
+micronaut:
+  application:
+    name: micronautguide
+
+kafka:
+  bootstrap:
+    servers: localhost:29092
+
+redis:
+  uri: redis://localhost

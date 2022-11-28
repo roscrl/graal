@@ -76,3 +76,17 @@ GraalVM feels too experimental at the moment. Having to be extra careful on ever
 #### SAM CLI 
 
 todo, every build/deploy in 'proper' local environment requires rebuild, too slow
+
+
+#### Golang 400ms. SAM CLI init tutorial
+
+Cold (1 request)
+<img width="1385" alt="image" src="https://user-images.githubusercontent.com/13072760/204171932-1b3fca9e-8c3d-487e-a8e0-c7b1c2769015.png">
+
+Warm (1 more request)
+<img width="1352" alt="image" src="https://user-images.githubusercontent.com/13072760/204171997-883ac2a8-5e89-4183-aff3-e634c3a31833.png">
+
+Hot (3 more requests, final one)
+<img width="1336" alt="image" src="https://user-images.githubusercontent.com/13072760/204172022-9e5c18e1-086b-4c60-85b0-c89980a5443f.png">
+
+
